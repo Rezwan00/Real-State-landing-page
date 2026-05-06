@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap first -->
+     <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+  <!-- Your CSS second -->
+  <link rel="stylesheet" href="regalia-styles.css" />
+
+  <title>Regalia</title>
+</head>
+<body>
+
+  <!-- paste your header/main/footer here -->
+<header class="hero" role="banner">
+  <!-- Top nav -->
+  <nav class="navbar navbar-dark navbar-expand-md hero__nav">
+    <div class="container-fluid">
+      <div class="d-flex align-items-center w-100">
+        <!-- Left -->
+        <div class="hero__nav-left d-flex align-items-center">
+          <button class="btn btn-sm btn-outline-light hero__menu-btn" type="button">
+            ☰ Menu
+          </button>
+
+          <div class="d-none d-md-flex align-items-center ml-3">
+            <a class="nav-link text-white p-0 mr-3" href="#">Work With Us</a>
+            <a class="nav-link text-white p-0" href="#">Explore Areas</a>
+          </div>
+        </div>
+
+        <!-- Center brand -->
+        <a class="navbar-brand mx-auto hero__brand" href="#">
+          <span class="hero__brand-mark">BRAND</span>
+        </a>
+
+        <!-- Right -->
+        <div class="hero__nav-right d-none d-md-flex align-items-center">
+          <a class="text-white small mr-3" href="tel:8883212876">888.321.2876</a>
+          <a class="text-white small" href="#">Sign In</a>
+          <span class="text-white small mx-1">/</span>
+          <a class="text-white small" href="#">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero content -->
+  <div class="hero__content text-center text-white">
+    <div class="container">
+      <p class="hero__kicker mb-2">FIND IT ALL</p>
+      <h1 class="hero__title display-4 mb-4">Closer To Home</h1>
+      <a class="btn btn-light btn-lg px-4 hero__cta" href="#">Explore the Area</a>
+      <p class="hero__scroll small mt-5 mb-0">SCROLL TO DISCOVER</p>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+  <!-- Split intro -->
+  <section class="intro py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <figure class="intro__media mb-0">
+            <img
+              class="img-fluid intro__image"
+              src="https://images.unsplash.com/photo-1721815693498-cc28507c0ba2?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Featured property"
+            />
+          </figure>
+        </div>
+
+        <div class="col-lg-5 offset-lg-1">
+          <p class="section-kicker mb-2">PROUD TO BE YOUR LOCAL</p>
+          <h2 class="intro__title display-4 mb-3">Real Estate Experts</h2>
+
+          <p class="intro__text text-muted mb-0">
+            This is placeholder copy. Replace later or keep it. The candidate’s job is
+            to style typography, spacing, and hierarchy to match the reference.
+          </p>
+
+          <a class="btn btn-dark mt-4 intro__btn" href="#">Why We’re Different</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats band -->
+  <section class="stats py-5 text-white">
+    <div class="container text-center">
+      <p class="section-kicker text-uppercase mb-2">OUR STATS</p>
+      <h2 class="stats__title display-4 mb-5">Experience Matters</h2>
+
+      <div class="row">
+        <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="stat">
+            <p class="stat__kicker mb-1">TOP</p>
+            <p class="stat__value h2 mb-1">1%</p>
+            <p class="stat__label mb-0">NATIONWIDE</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+          <div class="stat">
+            <p class="stat__kicker mb-1">OVER</p>
+            <p class="stat__value h2 mb-1">$650+</p>
+            <p class="stat__label mb-0">MILLIONS CLOSED</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="stat">
+            <p class="stat__kicker mb-1">OVER</p>
+            <p class="stat__value h2 mb-1">800+</p>
+            <p class="stat__label mb-0">PROPERTIES SOLD</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="stat">
+            <p class="stat__kicker mb-1">THE BEST</p>
+            <p class="stat__value h2 mb-1">1%</p>
+            <p class="stat__label mb-0">GROWING TEAM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service tiles -->
+  <section class="services py-5">
+    <div class="container text-center">
+      <p class="section-kicker mb-2">WHO YOU WORK WITH</p>
+      <h2 class="services__title display-4 mb-4">Matters!</h2>
+
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <a class="service-card d-block" href="#">
+            <div class="service-card__media">
+              <img class="img-fluid" src="https://plus.unsplash.com/premium_photo-1689609950071-af404daa58a0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Buying" />
+            </div>
+            <div class="service-card__overlay">
+              <h3 class="service-card__title mb-0">Buying</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-4 mb-md-0">
+          <a class="service-card d-block" href="#">
+            <div class="service-card__media">
+              <img class="img-fluid" src="https://plus.unsplash.com/premium_photo-1661964014750-963a28aeddea?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Selling" />
+            </div>
+            <div class="service-card__overlay">
+              <h3 class="service-card__title mb-0">Selling</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a class="service-card d-block" href="#">
+            <div class="service-card__media">
+              <img class="img-fluid" src="https://plus.unsplash.com/premium_photo-1742457747280-fdb89cce6773?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Upsizing" />
+            </div>
+            <div class="service-card__overlay">
+              <h3 class="service-card__title mb-0">Upsizing</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA band -->
+  <section class="cta text-white">
+    <div class="cta__bg">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="cta__panel p-4 p-md-5">
+              <p class="section-kicker mb-2">READY TO TAKE</p>
+              <h2 class="cta__title display-4 mb-3">The Next Step?</h2>
+
+              <p class="cta__text mb-4">
+                More placeholder copy. The candidate should style this as a boxed overlay
+                on top of a background image, with clean spacing and button styling.
+              </p>
+
+              <a class="btn btn-light cta__btn" href="#">Let’s Talk Your Goals</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer text-white pt-5">
+  <div class="container">
+    <div class="footer-top d-flex justify-content-between align-items-center mb-4">
+      <div class="footer-brand">BRAND</div>
+     <div class="footer-social">
+  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+  <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+</div>
+    </div>
+
+    <div class="row pb-4">
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h6 class="footer-heading">Contact</h6>
+        <ul class="list-unstyled small mb-0">
+          <li>
+            <span class="text-muted">Phone</span><br />
+            <a class="text-white" href="tel:8883212876">888.321.2876</a>
+          </li>
+          <li class="mt-3">
+            <span class="text-muted">Email</span><br />
+            <a class="text-white" href="mailto:hello@example.com">hello@example.com</a>
+          </li>
+          <li class="mt-3">
+            <span class="text-muted">Address</span><br />
+            123 Agency Street,<br />
+            City, ST 12345
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h6 class="footer-heading">Real Estate</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a class="text-white" href="#">Buyers</a></li>
+          <li><a class="text-white" href="#">Sellers</a></li>
+          <li><a class="text-white" href="#">VIP Home Search</a></li>
+          <li><a class="text-white" href="#">Home Valuation</a></li>
+          <li><a class="text-white" href="#">Recently Sold</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 mb-4 mb-md-0">
+        <h6 class="footer-heading">About</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a class="text-white" href="#">About</a></li>
+          <li><a class="text-white" href="#">Success Stories</a></li>
+          <li><a class="text-white" href="#">Blog</a></li>
+          <li><a class="text-white" href="#">Get In Touch</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h6 class="footer-heading">Communities</h6>
+        <ul class="list-unstyled small mb-0">
+          <li><a class="text-white" href="#">Explore Areas</a></li>
+          <li><a class="text-white" href="#">Featured Neighborhoods</a></li>
+          <li><a class="text-white" href="#">Map Search</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom small text-muted pb-4">
+      <p class="mb-2">
+        Accessibility note placeholder. Candidate can restyle this as fine print.
+      </p>
+      <p class="mb-0">
+        © 2026 BRAND. Privacy Policy, Admin, Sitemap, Accessibility.
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
